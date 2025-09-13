@@ -15,22 +15,20 @@ This project is a **full-stack messaging application** inspired by WhatsApp, int
 
 ## Project Structure
 
----
+```
 
 ## Backend Setup
 
 ### 1. Environment Variables
 Create a `.env` file in `backend/`:
+cd backend
+npm install
 
-```env
+## env
 PORT=5001
 DATABASE_URL=postgres://username:password@localhost:5432/chatapp
 JWT_SECRET=your_jwt_secret
 OPENAI_API_KEY=your_openai_api_key
-
-
-cd backend
-npm install
 
 ---
 
